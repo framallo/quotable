@@ -34,7 +34,12 @@ end
 
 # Include bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
-gem  'simple_form'
+gem 'simple_form'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
